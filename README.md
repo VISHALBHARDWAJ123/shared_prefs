@@ -1,6 +1,8 @@
 # shared_prefs
 
-A new Flutter project.
+Wraps platform-specific persistent storage for simple data (NSUserDefaults on iOS and macOS, SharedPreferences on Android, etc.). Data may be persisted to disk asynchronously, and there is no guarantee that writes will be persisted to disk after returning, so this plugin must not be used for storing critical data.
+
+
 
 ## Getting Started
 
